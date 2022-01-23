@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Oswald:wght@200&family=Raleway:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Oswald:wght@200&display=swap');
+body{
+    background-color: antiquewhite;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+/* navigation bar */
+.nav{
+    font-family: 'Oswald', sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    height: 65px;
+    z-index: -1;
+    color: white;
+    border-radius: 5px;
+}
+.brand img{
+    width: 50px;
+    padding: 0px 8px;
+    
+   
+
+}
+.brand{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+li {
+    margin: 22px 23px;
+    font-size: 3.9 rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+ul i{
+    position: absolute;
+    right: 50px;
+    cursor: pointer
+}
+/* ----over nav bar */
+
+
+/* main block after navbar */
+div h1{
+    width: 400px;
+    margin: 2px auto;
+    margin-bottom: 20px;
+}
+.container{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.songList{
+    background-color:pink;
+    background-image: url("/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: aliceblue;
+    width: 100vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    
+    
+}
+
+.itemList{
+    background-color: azure;
+    width: 55vh;
+    height: 30px;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 5px;
+
+}
+.itemList img{
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+}
+.splay{
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+
+/* sticky footer */
+.bottom{
+    position: sticky;
+    height: 150px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#myProgressBar{
+    margin-top: 0.3 rem;
+    width: 100vh;
+    background-color: rgb(80, 80, 246);
+    cursor: pointer;
+}
+.icons i{
+    margin: 2px 5px;
+    padding: 6px 6px;
+    cursor: pointer;
+    
+}
+.bottom img{
+    
+    font-size: 6px;
+    transition: opacity 1s ease-in;
+    opacity: -1;
+
+}
